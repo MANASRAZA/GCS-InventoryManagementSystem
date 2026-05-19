@@ -3,7 +3,8 @@
 namespace Database\Seeders;
 
 use App\Models\User;
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Item;
+use App\Models\Brand;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,11 +14,20 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
-
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+        $this->call([
+            UserSeeder::class,
         ]);
+
+        // Seed default items
+        $items = ['Sugar', 'Rice', 'Milk', 'Coffee', 'Flour', 'Tea'];
+        foreach ($items as $name) {
+            Item::firstOrCreate(['name' => $name]);
+        }
+
+        // Seed default brands
+        $brands = ['ABC', 'Nestlé', 'Premium', 'Choice', 'Organic', 'Generic'];
+        foreach ($brands as $name) {
+            Brand::firstOrCreate(['name' => $name]);
+        }
     }
 }
