@@ -35,7 +35,6 @@
                     </div>
                     <div>
                         <span class="text-lg font-bold tracking-tight text-slate-900">Inventory Management System</span>
-                        <span class="hidden sm:inline-block text-xs font-semibold text-slate-400 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full ml-2">v12.0</span>
                     </div>
                 </div>
 
