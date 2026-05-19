@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Purchase Management System - Login</title>
+    <title>Inventory Management System - Login</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
         <!-- Logo -->
         <div class="text-center">
             <div class="w-12 h-12 bg-slate-900 rounded-2xl flex items-center justify-center text-white font-bold text-2xl tracking-wider shadow-md mx-auto mb-4">
-                P
+                I
             </div>
             <h2 class="text-2xl font-bold tracking-tight text-slate-900">Sign in to your account</h2>
             <p class="text-sm text-slate-500 mt-1">Enter your credentials to access the purchase module.</p>

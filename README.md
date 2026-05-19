@@ -1,4 +1,4 @@
-# Purchase Management System - Purchase Entry & Legacy Migration Module
+# Inventory Management System - Purchase Entry & Legacy Migration Module
 
 A modern Laravel, Livewire, and Alpine.js application for managing purchase entries, implementing Spatie Role-Based Access Control (RBAC), and performing idempotent legacy data migrations.
 

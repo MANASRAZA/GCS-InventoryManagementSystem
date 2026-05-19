@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $title ?? 'Purchase Management System - Purchase Entry' }}</title>
+    <title>{{ $title ?? 'Inventory Management System - Purchase Entry' }}</title>
 
     <!-- Google Fonts - Inter & Outfit -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,10 +31,10 @@
                 <!-- Logo / Title -->
                 <div class="flex items-center gap-3">
                     <div class="w-9 h-9 bg-slate-900 rounded-xl flex items-center justify-center text-white font-bold text-lg tracking-wider shadow-sm">
-                        P
+                        I
                     </div>
                     <div>
-                        <span class="text-lg font-bold tracking-tight text-slate-900">Purchase Management System</span>
+                        <span class="text-lg font-bold tracking-tight text-slate-900">Inventory Management System</span>
                         <span class="hidden sm:inline-block text-xs font-semibold text-slate-400 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full ml-2">v12.0</span>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
     <!-- Footer -->
     <footer class="bg-white border-t border-slate-200/80 py-6 mt-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs text-slate-400">
-            &copy; {{ date('Y') }} Purchase Management System. Purchase Entry & Legacy Data Migration System.
+            &copy; {{ date('Y') }} Inventory Management System. Purchase Entry & Legacy Data Migration System.
         </div>
     </footer>
 
